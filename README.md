@@ -237,10 +237,10 @@ export default App
 
 - Import the images, make sure to name the import statements using capital letters
 
-`import Cancun from "./assets/places/cancun.png"
-    import La from "./assets/places/la.png"
-    import Paris from "./assets/places/paris.png"
-    import Toronto from "./assets/places/toronto.png"`
+    `import Cancun from "./assets/places/cancun.png"`
+    `import La from "./assets/places/la.png"`
+    `import Paris from "./assets/places/paris.png"`
+    `import Toronto from "./assets/places/toronto.png"`
 
 - Now, inside the App function you will add the Entries as follows:
 `function App() {
