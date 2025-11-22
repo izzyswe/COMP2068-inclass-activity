@@ -164,8 +164,7 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
       </p>`
 
 ## Step 6 - In the entry.jsx copy the code below:
-//function to return Entry component with props
-`export default function Entry(props){
+    `export default function Entry(props){
     return(
         <div className="card">
             <div className="card__img">
@@ -185,4 +184,4 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
             </div>
         </div>
     );
-}`
+    }`
