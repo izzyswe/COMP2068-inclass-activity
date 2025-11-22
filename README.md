@@ -191,14 +191,14 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
 import Header from "./components/Header"
 import Entry from "./components/Entry"
 
-function App() {
+    function App() {
 
-  return (
-    <>
-      <Header />
-      <Entry />
-    </>
-  )
-}
+    return (
+        <>
+        <Header />
+        <Entry />
+        </>
+     )
+    }
 
 export default App`
