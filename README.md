@@ -185,3 +185,20 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
         </div>
     );
     }`
+
+## Step 7 - Add the following code to your App.jsx:
+`import './App.css'
+import Header from "./components/Header"
+import Entry from "./components/Entry"
+
+function App() {
+
+  return (
+    <>
+      <Header />
+      <Entry />
+    </>
+  )
+}
+
+export default App`
