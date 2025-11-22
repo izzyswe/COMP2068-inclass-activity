@@ -24,3 +24,9 @@ Objective is help you understand and familiarize yourself in the react ecosystem
 			- VSCode React Refactor
 			- Auto Rename Tag
 You have 2 ways, manually or install the empty template
+
+# MANUAL SETUP
+## Step 1 - Create a Vite Project
+**To Create a Vite Project, Use the following NPM command**
+`npm create vite&latest`
+*(for breakdown, we are saying "npm" = from the NPM library, "create vite" = create a vite project, "@latest" = Using the latest production version currently out)*
