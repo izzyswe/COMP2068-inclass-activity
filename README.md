@@ -235,17 +235,16 @@ export default App
 
 ## Step 10 - Import the components and create the Entries:
 
-- Import the images, make sure to name the import statements using capital letters: 
-
-```import Cancun from "./assets/places/cancun.png"
+## Import the images, make sure to name the import statements using capital letters: 
+```javascript
+import Cancun from "./assets/places/cancun.png"
 import La from "./assets/places/la.png"
 import Paris from "./assets/places/paris.png"
-import Toronto from "./assets/places/toronto.png"```
-
-
-
-- Now, inside the App function you will add the Entries as follows:
-`function App() {
+import Toronto from "./assets/places/toronto.png"
+```
+# Now, inside the App function you will add the Entries as follows:
+```jsx
+function App() {
 
     return (
         <>
@@ -284,7 +283,8 @@ import Toronto from "./assets/places/toronto.png"```
             description="Toronto" />
         </>
     )
-}`
+}
+```
 
 ## Make sure you change the URL's in case you are are using different locations
 
