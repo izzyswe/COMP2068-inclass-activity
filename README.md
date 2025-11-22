@@ -236,6 +236,7 @@ export default App
 ## Step 10 - Import the components and create the Entries:
 
 - Import the images, make sure to name the import statements using capital letters
+
     `import Cancun from "./assets/places/cancun.png"
     import La from "./assets/places/la.png"
     import Paris from "./assets/places/paris.png"
