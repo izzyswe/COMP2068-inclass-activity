@@ -142,7 +142,8 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
 		- Entry.jsx
 
 ## Step 5 - Delete The Following code from the App.jsx
-      `<div>
+      ```jsx
+      <div>
         <a href="https://vite.dev/" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -161,10 +162,12 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>`
+      </p>
+      ```
 
 ## Step 6 - In the entry.jsx copy the code below:
-    `export default function Entry(props){
+    ```jsx
+    export default function Entry(props){
     return(
         <div className="card">
             <div className="card__img">
@@ -184,9 +187,11 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
             </div>
         </div>
     );
-    }`
+    }
+    ```
 
 ## Step 7 - Add the following code to your App.jsx:
+```jsx
 import './App.css'
 import Header from "./components/Header"
 import Entry from "./components/Entry"
@@ -200,7 +205,7 @@ import Entry from "./components/Entry"
         </>
      )
     }
-
+```
 export default App
 
 ## Step 8 - Download the pictures that are in the Src -> assets -> places:
@@ -211,7 +216,8 @@ export default App
 - Images should be named only using *Lower Case* letters
 
 ## Step 9 - Modify the Entry.jsx file - Copy the code below:
-    `export default function Entry(props){
+    ```jsx
+    export default function Entry(props){
         return(
             <div className="card">
                 <div className="card__img">
@@ -231,7 +237,8 @@ export default App
                 </div>
             </div>
         );
-    }`
+    }
+    ```
 
 ## Step 10 - Import the components and create the Entries:
 
