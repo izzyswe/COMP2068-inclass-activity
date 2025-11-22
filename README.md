@@ -187,7 +187,7 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
     }`
 
 ## Step 7 - Add the following code to your App.jsx:
-`import './App.css'
+import './App.css'
 import Header from "./components/Header"
 import Entry from "./components/Entry"
 
@@ -201,4 +201,88 @@ import Entry from "./components/Entry"
      )
     }
 
-export default App`
+export default App
+
+## Step 8 - Download the pictures that are in the Src -> assets -> places:
+
+- Create a folder named "places" inside your assets folder
+- Download the images that are provided in the repo above, or choose your own
+- Put all of them in the "places" folder you have just created
+- Images should be named only using *Lower Case* letters
+
+## Step 9 - Modify the Entry.jsx file - Copy the code below:
+    `export default function Entry(props){
+        return(
+            <div className="card">
+                <div className="card__img">
+                    <img src={props.img} alt={props.titleImg} />
+                </div>
+                <div className="card__content">
+                    <div className="card__content-location">
+                        <img src="../assets/location-icon.svg"/>
+                        <p>{props.country}</p>
+                        <a href={props.mapUrl}>View on Google Maps</a>
+                    </div>
+                    <div className="card__content-info">
+                        <h1>{props.title}</h1>
+                        <h2>{props.date}</h2>
+                        <p>{props.description}</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }`
+
+## Step 10 - Import the components and create the Entries:
+
+- Import the images, make sure to name the import statements using capital letters
+    `import Cancun from "./assets/places/cancun.png"
+    import La from "./assets/places/la.png"
+    import Paris from "./assets/places/paris.png"
+    import Toronto from "./assets/places/toronto.png"`
+
+- Now, inside the App function you will add the Entries as follows:
+`function App() {
+
+    return (
+        <>
+        <Header />
+        <Entry
+            img={Cancun} 
+            titleImg="cancun picture"
+            country="Mexico"
+            mapUrl="https://shorturl.at/2tr7F"
+            title="Mexico - Cancun"
+            date="01-01-25"
+            description="Resort" />
+        <Entry
+            img={La}
+            titleImg="Los Angles picture"
+            country="USA"
+            mapUrl="https://shorturl.at/E6Y2P"
+            title="Los Angles - California"
+            date="01-01-25"
+            description="City of Angles" />
+        <Entry
+            img={Paris}
+            titleImg="Paris"
+            country="France"
+            mapUrl="https://shorturl.at/rxh3Q"
+            title="France - Paris"
+            date="01-01-25"
+            description="Fashion City" />
+        <Entry
+            img={Toronto} 
+            titleImg="Canada - Toronto"
+            country="Canada"
+            mapUrl="https://shorturl.at/IBURc"
+            title="Ontario - Toronto"
+            date="01-01-25"
+            description="Toronto" />
+        </>
+    )
+}`
+
+## Make sure you change the URL's in case you are are using different locations
+
+- Run the application using `npm run dev`
