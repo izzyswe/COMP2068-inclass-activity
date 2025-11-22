@@ -123,3 +123,12 @@ src
   README.md
   vite.config.js
 </pre>
+
+## Step 3 - Remove Unnecessary Files
+- remove the following files;
+	- react.svg
+	- index.css (Typically index.css is used for global styling but we are not worried about that)
+	- vite.svg
+
+Go to App.css and Erase the content inside as we have CSS that we will use
+Go to Main.jsx and delete the following line `import './index.css'` as we will only need App.css
