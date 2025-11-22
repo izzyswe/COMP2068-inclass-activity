@@ -162,3 +162,27 @@ Go to Main.jsx and delete the following line `import './index.css'` as we will o
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>`
+
+## Step 6 - In the entry.jsx copy the code below:
+//function to return Entry component with props
+`export default function Entry(props){
+    return(
+        <div className="card">
+            <div className="card__img">
+                <img src={props.img} alt={props.title} />
+            </div>
+            <div className="card__content">
+                <div className="card__content-location">
+                    <img src="../assets/location-icon.svg"/>
+                    <p>{props.country}</p>
+                    <a href={props.mapUrl}>View on Google Maps</a>
+                </div>
+                <div className="card__content-info">
+                    <h1>{props.title}</h1>
+                    <h2>{props.date}</h2>
+                    <p>{props.description}</p>
+                </div>
+            </div>
+        </div>
+    );
+}`
