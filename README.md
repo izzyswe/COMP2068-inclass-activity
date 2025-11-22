@@ -132,3 +132,11 @@ src
 
 Go to App.css and Erase the content inside as we have CSS that we will use
 Go to Main.jsx and delete the following line `import './index.css'` as we will only need App.css
+
+## Step 4 - Add The Following Folders/Files/Code
+- Copy CSS -> Link
+- Paste the copied CSS into App.css
+- Add a Folder inside src/, Name is components (This is where all of our components will live)
+- inside components/, You will add the following files
+		- Header.jsx
+		- Entry.jsx
