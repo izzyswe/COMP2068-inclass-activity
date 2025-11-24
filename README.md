@@ -42,6 +42,11 @@ You have 2 ways, manually or install the empty template
 ## For a more complex and complete edition check this link [My Travel Journal](https://izzyswe.github.io/react-project/)
 
 # MANUAL SETUP
+
+## Don't worry about styling, We Gotchu! Just copy and paste this into your CSS! 
+- link to app CSS -> [App.css STYLING](https://github.com/izzyswe/COMP2068-inclass-activity/blob/main/src/App.css)
+- link to index.css -> [Index.css STYLING](https://github.com/izzyswe/COMP2068-inclass-activity/blob/main/src/index.css)
+
 ## Step 1 - Create a Vite Project
 **To Create a Vite Project, Use the following NPM command**
 `npm create vite@latest`
