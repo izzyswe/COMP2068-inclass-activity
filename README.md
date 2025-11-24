@@ -26,9 +26,9 @@ Objective is help you understand and familiarize yourself in the react ecosystem
 You have 2 ways, manually or install the empty template
 
 # QUICK START IN-CLASS
-## Everything is made for you, We will edit the following pages and imports to understand Props and component
+ **Everything is made for you, We will edit the following pages and imports to understand Props and component**
 - Import the Photos
-  	- Understand how module imports work and provide flexibility
+  	- Understand how module imports work and how it provides flexibility
 - Header.jsx
 	- Header will allows to understand how components are built 
 - Entry.jsx
