@@ -10,7 +10,6 @@ Objective is help you understand and familiarize yourself in the react ecosystem
 ### By The End You Will Learn How:
 - Components are built
 - Props work/What it solves
-- React Hooks such as useState is used
 - Make your own React Travel Journal Application!
 
 #### WHAT YOU WILL NEED:
@@ -18,12 +17,29 @@ Objective is help you understand and familiarize yourself in the react ecosystem
 - Git 
 - Visual Studio Code
 	- Extensions Include:
+ 			- Emmet 
 			- ESLint
 			- ES7 React
 			- Prettier - Code formatter
 			- VSCode React Refactor
 			- Auto Rename Tag
 You have 2 ways, manually or install the empty template
+
+# QUICK START IN-CLASS
+## Everything is made for you, We will edit the following pages and imports to understand Props and component
+- Import the Photos
+  	- Understand how module imports work and provide flexibility
+- Header.jsx
+	- Header will allows to understand how components are built 
+- Entry.jsx
+	- Entry will allow us to understand how Props and Data work in combination
+-  App.jsx
+	- How to apply Props and data in App.jsx from Entry  
+	- Allows to see the reusability of react
+
+## clone the git using `git clone https://github.com/izzyswe/COMP2068-inclass-activity.git`
+## Lets get Started!
+## For a more complex and complete edition check this link [My Travel Journal](https://izzyswe.github.io/react-project/)
 
 # MANUAL SETUP
 ## Step 1 - Create a Vite Project
