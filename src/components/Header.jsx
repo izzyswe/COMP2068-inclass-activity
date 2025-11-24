@@ -9,14 +9,13 @@
 import Globe from "../assets/global.svg"
 
 
+//THE ACTUAL INCLASS
+
 //to make comments inside the html use {} followed by using \*comment*\, 
 //anything inside the curly bracket can have javascript code
 // but generally not reccomended unless its inside the html tags for props or mapping and other specific use cases
 export default function Header(){
-  return (
-    <header className="header"> {/*This is a comment! but also inside the return, the parent must only have ONE parent, if none fits, use <></> */}
-      <img className="header__img" src= {Globe} alt="logo"/>
-      <h1 className="header__logo">my travel journal</h1>
-    </header>
-  )
+  //add return()
+    //do the emmet command header.header>img[src={Globe} alt="logo"].header__img+h1.header__logo{my travel journal}
+    {/*This is a comment inside the return!, the parent must only have ONE parent, if none fits, use <></> */}
 }
